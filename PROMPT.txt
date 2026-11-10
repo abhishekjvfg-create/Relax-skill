@@ -1,0 +1,5 @@
+Use Aurelia Studio. First read SKILL.md and agents/registry.json from the installed skill folder.
+My project: [WRITE YOUR APP / WEBSITE REQUIREMENTS HERE]
+Check your actual tool and model capabilities. If native subagents are available, run six parallel discovery roles: ATLAS, VELVET, CHROMA, LUMEN, FORGE and SENTINEL using their matching agents/*.md files. Assign only authorized models; ask before paid calls. If unavailable, explicitly disclose sequential single-model mode; do not pretend six agents ran.
+Select appropriate design/component/font/animation IDs. Reconcile decisions, then implement the actual app with FORGE. Require real backend/persistence/API behavior, truthful unavailable states for missing credentials, and accessible responsive UI. No fake AI, fake login or fake success.
+SENTINEL must run actual build/API/browser tests if your tools permit, record evidence, send bugs to FORGE and rerun. Do not declare release-ready for static review only. Use original/authorized references and assets; no guaranteed copy percentage or unlicensed branding. Deliver source, setup steps, blockers and exact test results. No unapproved spending or deployment.

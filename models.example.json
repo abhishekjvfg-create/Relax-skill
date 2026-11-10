@@ -1,0 +1,15 @@
+{
+  "base_url": "https://YOUR_AUTHORIZED_PROVIDER.example/v1",
+  "api_key_env": "AURELIA_API_KEY",
+  "timeout_seconds": 180,
+  "max_tokens": 8000,
+  "models": {
+    "atlas": "REPLACE_WITH_AVAILABLE_MODEL_ID",
+    "velvet": "REPLACE_WITH_AVAILABLE_MODEL_ID",
+    "chroma": "REPLACE_WITH_AVAILABLE_MODEL_ID",
+    "lumen": "REPLACE_WITH_AVAILABLE_MODEL_ID",
+    "forge": "REPLACE_WITH_AVAILABLE_MODEL_ID",
+    "sentinel": "REPLACE_WITH_AVAILABLE_MODEL_ID"
+  },
+  "note": "Set explicit provider-authorized IDs. Same model for multiple roles is allowed. No automatic best-model discovery. Verify max_tokens compatibility with your provider."
+}

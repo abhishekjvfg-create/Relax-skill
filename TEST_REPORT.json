@@ -1,0 +1,119 @@
+{
+  "package": "Aurelia Studio 1.0.0",
+  "executedAt": "2026-11-10T06:44:22.320239+00:00",
+  "environment": {
+    "python": "3.13.14",
+    "os": "Linux",
+    "browser": "Playwright Chromium 158 headless"
+  },
+  "unitIntegration": {
+    "executed": 19,
+    "failures": 0,
+    "errors": 0,
+    "result": "PASS",
+    "command": "python3 -m unittest discover -s aurelia-studio/tests -v",
+    "log": "test_all_design_fonts_are_bundled (test_pack.CatalogTests.test_all_design_fonts_are_bundled) ... ok\ntest_components_have_52_patterns_and_10_variants (test_pack.CatalogTests.test_components_have_52_patterns_and_10_variants) ... ok\ntest_exact_inventory (test_pack.CatalogTests.test_exact_inventory) ... ok\ntest_fonts_are_real_and_licensed (test_pack.CatalogTests.test_fonts_are_real_and_licensed) ... ok\ntest_logos_and_instructions (test_pack.CatalogTests.test_logos_and_instructions) ... ok\ntest_motion_has_reduced_motion_and_every_keyframe (test_pack.CatalogTests.test_motion_has_reduced_motion_and_every_keyframe) ... ok\ntest_visible_counts (test_pack.CatalogTests.test_visible_counts) ... ok\ntest_six_parallel_then_integration_and_static_review (test_pack.RunnerIntegrationTests.test_six_parallel_then_integration_and_static_review) ... ok\ntest_truncated_response_stops_before_generation (test_pack.RunnerIntegrationTests.test_truncated_response_stops_before_generation) ... ok\ntest_api_config_rejects_insecure_and_missing_models (test_pack.SafetyTests.test_api_config_rejects_insecure_and_missing_models) ... ok\ntest_catalog_search (test_pack.SafetyTests.test_catalog_search) ... ok\ntest_duplicate_paths_are_atomic (test_pack.SafetyTests.test_duplicate_paths_are_atomic) ... ok\ntest_install_is_explicit_and_refuses_overwrite (test_pack.SafetyTests.test_install_is_explicit_and_refuses_overwrite) ... ok\ntest_install_refuses_unmanaged_and_overlap (test_pack.SafetyTests.test_install_refuses_unmanaged_and_overlap) ... ok\ntest_json_fence (test_pack.SafetyTests.test_json_fence) ... ok\ntest_path_traversal_rejected (test_pack.SafetyTests.test_path_traversal_rejected) ... ok\ntest_plan_offline_and_consent (test_pack.SafetyTests.test_plan_offline_and_consent) ... ok\ntest_symlink_escape_rejected (test_pack.SafetyTests.test_symlink_escape_rejected) ... ok\ntest_valid_artifacts (test_pack.SafetyTests.test_valid_artifacts) ... ok\n\n----------------------------------------------------------------------\nRan 19 tests in 2.910s\n\nOK\n"
+  },
+  "browser": [
+    {
+      "page": "index.html",
+      "width": 360,
+      "result": "PASS"
+    },
+    {
+      "page": "index.html",
+      "width": 768,
+      "result": "PASS"
+    },
+    {
+      "page": "index.html",
+      "width": 1440,
+      "result": "PASS"
+    },
+    {
+      "page": "components/index.html",
+      "width": 360,
+      "result": "PASS"
+    },
+    {
+      "page": "components/index.html",
+      "width": 768,
+      "result": "PASS"
+    },
+    {
+      "page": "components/index.html",
+      "width": 1440,
+      "result": "PASS"
+    },
+    {
+      "page": "animations/index.html",
+      "width": 360,
+      "result": "PASS"
+    },
+    {
+      "page": "animations/index.html",
+      "width": 768,
+      "result": "PASS"
+    },
+    {
+      "page": "animations/index.html",
+      "width": 1440,
+      "result": "PASS"
+    },
+    {
+      "page": "fonts/index.html",
+      "width": 360,
+      "result": "PASS"
+    },
+    {
+      "page": "fonts/index.html",
+      "width": 768,
+      "result": "PASS"
+    },
+    {
+      "page": "fonts/index.html",
+      "width": 1440,
+      "result": "PASS"
+    },
+    {
+      "check": "design filter and pagination",
+      "result": "PASS"
+    },
+    {
+      "check": "dialog focus/Escape, keyboard tabs, chip state",
+      "result": "PASS"
+    },
+    {
+      "check": "160 local fonts actually decoded/loaded and text preview",
+      "loaded": 160,
+      "result": "PASS"
+    },
+    {
+      "check": "motion pause control and prefers-reduced-motion",
+      "result": "PASS"
+    },
+    {
+      "check": "browser console and page errors",
+      "result": "PASS",
+      "errors": []
+    }
+  ],
+  "javascriptSyntax": {
+    "result": "PASS",
+    "files": [
+      "animations/animations.js",
+      "catalogs/designs.js",
+      "components/components.js",
+      "explorer.js",
+      "fonts/preview.js"
+    ]
+  },
+  "notTested": [
+    "Real paid LLM API generation",
+    "Native Arena/Antigravity/Claude/Codex runtime activation",
+    "Blender Unity Godot execution",
+    "Production cloud integrations",
+    "Future generated application functionality"
+  ],
+  "scope": "Tests verify the skill library, installer and runner mechanics with an explicitly mocked API; not production certification."
+}
