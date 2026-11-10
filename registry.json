@@ -1,0 +1,44 @@
+[
+  {
+    "id": "atlas",
+    "name": "ATLAS",
+    "role": "3D Architect",
+    "logo": "logos/atlas.svg",
+    "instructions": "agents/atlas.md"
+  },
+  {
+    "id": "velvet",
+    "name": "VELVET",
+    "role": "UI & Motion Designer",
+    "logo": "logos/velvet.svg",
+    "instructions": "agents/velvet.md"
+  },
+  {
+    "id": "chroma",
+    "name": "CHROMA",
+    "role": "Typography & Color Director",
+    "logo": "logos/chroma.svg",
+    "instructions": "agents/chroma.md"
+  },
+  {
+    "id": "lumen",
+    "name": "LUMEN",
+    "role": "Lighting & Reference Analyst",
+    "logo": "logos/lumen.svg",
+    "instructions": "agents/lumen.md"
+  },
+  {
+    "id": "forge",
+    "name": "FORGE",
+    "role": "Full-Stack Integrator & Repair Engineer",
+    "logo": "logos/forge.svg",
+    "instructions": "agents/forge.md"
+  },
+  {
+    "id": "sentinel",
+    "name": "SENTINEL",
+    "role": "QA, Security & Reality Auditor",
+    "logo": "logos/sentinel.svg",
+    "instructions": "agents/sentinel.md"
+  }
+]

@@ -1,0 +1,642 @@
+[
+  {
+    "id": "A001",
+    "name": "fade-in",
+    "trigger": "reveal",
+    "durationMs": 560,
+    "cssClass": "motion-fade-in",
+    "reducedMotion": "static final state; route-exit remains visible when reduced motion requested",
+    "usage": "class=\"motion-fade-in\" data-motion=\"reveal\"",
+    "notes": "CSS recipe; verify performance and connect app lifecycle. No scroll hijacking."
+  },
+  {
+    "id": "A002",
+    "name": "fade-up",
+    "trigger": "reveal",
+    "durationMs": 560,
+    "cssClass": "motion-fade-up",
+    "reducedMotion": "static final state; route-exit remains visible when reduced motion requested",
+    "usage": "class=\"motion-fade-up\" data-motion=\"reveal\"",
+    "notes": "CSS recipe; verify performance and connect app lifecycle. No scroll hijacking."
+  },
+  {
+    "id": "A003",
+    "name": "fade-down",
+    "trigger": "reveal",
+    "durationMs": 560,
+    "cssClass": "motion-fade-down",
+    "reducedMotion": "static final state; route-exit remains visible when reduced motion requested",
+    "usage": "class=\"motion-fade-down\" data-motion=\"reveal\"",
+    "notes": "CSS recipe; verify performance and connect app lifecycle. No scroll hijacking."
+  },
+  {
+    "id": "A004",
+    "name": "fade-left",
+    "trigger": "reveal",
+    "durationMs": 560,
+    "cssClass": "motion-fade-left",
+    "reducedMotion": "static final state; route-exit remains visible when reduced motion requested",
+    "usage": "class=\"motion-fade-left\" data-motion=\"reveal\"",
+    "notes": "CSS recipe; verify performance and connect app lifecycle. No scroll hijacking."
+  },
+  {
+    "id": "A005",
+    "name": "fade-right",
+    "trigger": "reveal",
+    "durationMs": 560,
+    "cssClass": "motion-fade-right",
+    "reducedMotion": "static final state; route-exit remains visible when reduced motion requested",
+    "usage": "class=\"motion-fade-right\" data-motion=\"reveal\"",
+    "notes": "CSS recipe; verify performance and connect app lifecycle. No scroll hijacking."
+  },
+  {
+    "id": "A006",
+    "name": "slide-up",
+    "trigger": "reveal",
+    "durationMs": 560,
+    "cssClass": "motion-slide-up",
+    "reducedMotion": "static final state; route-exit remains visible when reduced motion requested",
+    "usage": "class=\"motion-slide-up\" data-motion=\"reveal\"",
+    "notes": "CSS recipe; verify performance and connect app lifecycle. No scroll hijacking."
+  },
+  {
+    "id": "A007",
+    "name": "slide-down",
+    "trigger": "reveal",
+    "durationMs": 560,
+    "cssClass": "motion-slide-down",
+    "reducedMotion": "static final state; route-exit remains visible when reduced motion requested",
+    "usage": "class=\"motion-slide-down\" data-motion=\"reveal\"",
+    "notes": "CSS recipe; verify performance and connect app lifecycle. No scroll hijacking."
+  },
+  {
+    "id": "A008",
+    "name": "slide-left",
+    "trigger": "reveal",
+    "durationMs": 560,
+    "cssClass": "motion-slide-left",
+    "reducedMotion": "static final state; route-exit remains visible when reduced motion requested",
+    "usage": "class=\"motion-slide-left\" data-motion=\"reveal\"",
+    "notes": "CSS recipe; verify performance and connect app lifecycle. No scroll hijacking."
+  },
+  {
+    "id": "A009",
+    "name": "slide-right",
+    "trigger": "reveal",
+    "durationMs": 560,
+    "cssClass": "motion-slide-right",
+    "reducedMotion": "static final state; route-exit remains visible when reduced motion requested",
+    "usage": "class=\"motion-slide-right\" data-motion=\"reveal\"",
+    "notes": "CSS recipe; verify performance and connect app lifecycle. No scroll hijacking."
+  },
+  {
+    "id": "A010",
+    "name": "scale-in",
+    "trigger": "reveal",
+    "durationMs": 560,
+    "cssClass": "motion-scale-in",
+    "reducedMotion": "static final state; route-exit remains visible when reduced motion requested",
+    "usage": "class=\"motion-scale-in\" data-motion=\"reveal\"",
+    "notes": "CSS recipe; verify performance and connect app lifecycle. No scroll hijacking."
+  },
+  {
+    "id": "A011",
+    "name": "scale-out",
+    "trigger": "reveal",
+    "durationMs": 560,
+    "cssClass": "motion-scale-out",
+    "reducedMotion": "static final state; route-exit remains visible when reduced motion requested",
+    "usage": "class=\"motion-scale-out\" data-motion=\"reveal\"",
+    "notes": "CSS recipe; verify performance and connect app lifecycle. No scroll hijacking."
+  },
+  {
+    "id": "A012",
+    "name": "zoom-soft",
+    "trigger": "reveal",
+    "durationMs": 560,
+    "cssClass": "motion-zoom-soft",
+    "reducedMotion": "static final state; route-exit remains visible when reduced motion requested",
+    "usage": "class=\"motion-zoom-soft\" data-motion=\"reveal\"",
+    "notes": "CSS recipe; verify performance and connect app lifecycle. No scroll hijacking."
+  },
+  {
+    "id": "A013",
+    "name": "rotate-in",
+    "trigger": "reveal",
+    "durationMs": 560,
+    "cssClass": "motion-rotate-in",
+    "reducedMotion": "static final state; route-exit remains visible when reduced motion requested",
+    "usage": "class=\"motion-rotate-in\" data-motion=\"reveal\"",
+    "notes": "CSS recipe; verify performance and connect app lifecycle. No scroll hijacking."
+  },
+  {
+    "id": "A014",
+    "name": "rotate-reverse",
+    "trigger": "reveal",
+    "durationMs": 560,
+    "cssClass": "motion-rotate-reverse",
+    "reducedMotion": "static final state; route-exit remains visible when reduced motion requested",
+    "usage": "class=\"motion-rotate-reverse\" data-motion=\"reveal\"",
+    "notes": "CSS recipe; verify performance and connect app lifecycle. No scroll hijacking."
+  },
+  {
+    "id": "A015",
+    "name": "flip-x",
+    "trigger": "reveal",
+    "durationMs": 560,
+    "cssClass": "motion-flip-x",
+    "reducedMotion": "static final state; route-exit remains visible when reduced motion requested",
+    "usage": "class=\"motion-flip-x\" data-motion=\"reveal\"",
+    "notes": "CSS recipe; verify performance and connect app lifecycle. No scroll hijacking."
+  },
+  {
+    "id": "A016",
+    "name": "flip-y",
+    "trigger": "reveal",
+    "durationMs": 560,
+    "cssClass": "motion-flip-y",
+    "reducedMotion": "static final state; route-exit remains visible when reduced motion requested",
+    "usage": "class=\"motion-flip-y\" data-motion=\"reveal\"",
+    "notes": "CSS recipe; verify performance and connect app lifecycle. No scroll hijacking."
+  },
+  {
+    "id": "A017",
+    "name": "reveal-clip",
+    "trigger": "reveal",
+    "durationMs": 560,
+    "cssClass": "motion-reveal-clip",
+    "reducedMotion": "static final state; route-exit remains visible when reduced motion requested",
+    "usage": "class=\"motion-reveal-clip\" data-motion=\"reveal\"",
+    "notes": "CSS recipe; verify performance and connect app lifecycle. No scroll hijacking."
+  },
+  {
+    "id": "A018",
+    "name": "reveal-right",
+    "trigger": "reveal",
+    "durationMs": 560,
+    "cssClass": "motion-reveal-right",
+    "reducedMotion": "static final state; route-exit remains visible when reduced motion requested",
+    "usage": "class=\"motion-reveal-right\" data-motion=\"reveal\"",
+    "notes": "CSS recipe; verify performance and connect app lifecycle. No scroll hijacking."
+  },
+  {
+    "id": "A019",
+    "name": "reveal-top",
+    "trigger": "reveal",
+    "durationMs": 560,
+    "cssClass": "motion-reveal-top",
+    "reducedMotion": "static final state; route-exit remains visible when reduced motion requested",
+    "usage": "class=\"motion-reveal-top\" data-motion=\"reveal\"",
+    "notes": "CSS recipe; verify performance and connect app lifecycle. No scroll hijacking."
+  },
+  {
+    "id": "A020",
+    "name": "reveal-bottom",
+    "trigger": "reveal",
+    "durationMs": 560,
+    "cssClass": "motion-reveal-bottom",
+    "reducedMotion": "static final state; route-exit remains visible when reduced motion requested",
+    "usage": "class=\"motion-reveal-bottom\" data-motion=\"reveal\"",
+    "notes": "CSS recipe; verify performance and connect app lifecycle. No scroll hijacking."
+  },
+  {
+    "id": "A021",
+    "name": "reveal-circle",
+    "trigger": "reveal",
+    "durationMs": 560,
+    "cssClass": "motion-reveal-circle",
+    "reducedMotion": "static final state; route-exit remains visible when reduced motion requested",
+    "usage": "class=\"motion-reveal-circle\" data-motion=\"reveal\"",
+    "notes": "CSS recipe; verify performance and connect app lifecycle. No scroll hijacking."
+  },
+  {
+    "id": "A022",
+    "name": "blur-in",
+    "trigger": "reveal",
+    "durationMs": 560,
+    "cssClass": "motion-blur-in",
+    "reducedMotion": "static final state; route-exit remains visible when reduced motion requested",
+    "usage": "class=\"motion-blur-in\" data-motion=\"reveal\"",
+    "notes": "CSS recipe; verify performance and connect app lifecycle. No scroll hijacking."
+  },
+  {
+    "id": "A023",
+    "name": "blur-slide",
+    "trigger": "reveal",
+    "durationMs": 560,
+    "cssClass": "motion-blur-slide",
+    "reducedMotion": "static final state; route-exit remains visible when reduced motion requested",
+    "usage": "class=\"motion-blur-slide\" data-motion=\"reveal\"",
+    "notes": "CSS recipe; verify performance and connect app lifecycle. No scroll hijacking."
+  },
+  {
+    "id": "A024",
+    "name": "bounce-in",
+    "trigger": "reveal",
+    "durationMs": 560,
+    "cssClass": "motion-bounce-in",
+    "reducedMotion": "static final state; route-exit remains visible when reduced motion requested",
+    "usage": "class=\"motion-bounce-in\" data-motion=\"reveal\"",
+    "notes": "CSS recipe; verify performance and connect app lifecycle. No scroll hijacking."
+  },
+  {
+    "id": "A025",
+    "name": "float",
+    "trigger": "loop",
+    "durationMs": 2400,
+    "cssClass": "motion-float",
+    "reducedMotion": "static final state; route-exit remains visible when reduced motion requested",
+    "usage": "class=\"motion-float\" data-motion=\"loop\"",
+    "notes": "CSS recipe; verify performance and connect app lifecycle. No scroll hijacking."
+  },
+  {
+    "id": "A026",
+    "name": "pulse",
+    "trigger": "loop",
+    "durationMs": 2400,
+    "cssClass": "motion-pulse",
+    "reducedMotion": "static final state; route-exit remains visible when reduced motion requested",
+    "usage": "class=\"motion-pulse\" data-motion=\"loop\"",
+    "notes": "CSS recipe; verify performance and connect app lifecycle. No scroll hijacking."
+  },
+  {
+    "id": "A027",
+    "name": "breathe",
+    "trigger": "loop",
+    "durationMs": 2400,
+    "cssClass": "motion-breathe",
+    "reducedMotion": "static final state; route-exit remains visible when reduced motion requested",
+    "usage": "class=\"motion-breathe\" data-motion=\"loop\"",
+    "notes": "CSS recipe; verify performance and connect app lifecycle. No scroll hijacking."
+  },
+  {
+    "id": "A028",
+    "name": "sway",
+    "trigger": "loop",
+    "durationMs": 2400,
+    "cssClass": "motion-sway",
+    "reducedMotion": "static final state; route-exit remains visible when reduced motion requested",
+    "usage": "class=\"motion-sway\" data-motion=\"loop\"",
+    "notes": "CSS recipe; verify performance and connect app lifecycle. No scroll hijacking."
+  },
+  {
+    "id": "A029",
+    "name": "spin",
+    "trigger": "loop",
+    "durationMs": 2400,
+    "cssClass": "motion-spin",
+    "reducedMotion": "static final state; route-exit remains visible when reduced motion requested",
+    "usage": "class=\"motion-spin\" data-motion=\"loop\"",
+    "notes": "CSS recipe; verify performance and connect app lifecycle. No scroll hijacking."
+  },
+  {
+    "id": "A030",
+    "name": "orbit",
+    "trigger": "loop",
+    "durationMs": 2400,
+    "cssClass": "motion-orbit",
+    "reducedMotion": "static final state; route-exit remains visible when reduced motion requested",
+    "usage": "class=\"motion-orbit\" data-motion=\"loop\"",
+    "notes": "CSS recipe; verify performance and connect app lifecycle. No scroll hijacking."
+  },
+  {
+    "id": "A031",
+    "name": "shimmer",
+    "trigger": "loop",
+    "durationMs": 2400,
+    "cssClass": "motion-shimmer",
+    "reducedMotion": "static final state; route-exit remains visible when reduced motion requested",
+    "usage": "class=\"motion-shimmer\" data-motion=\"loop\"",
+    "notes": "CSS recipe; verify performance and connect app lifecycle. No scroll hijacking."
+  },
+  {
+    "id": "A032",
+    "name": "skeleton-pulse",
+    "trigger": "loop",
+    "durationMs": 2400,
+    "cssClass": "motion-skeleton-pulse",
+    "reducedMotion": "static final state; route-exit remains visible when reduced motion requested",
+    "usage": "class=\"motion-skeleton-pulse\" data-motion=\"loop\"",
+    "notes": "CSS recipe; verify performance and connect app lifecycle. No scroll hijacking."
+  },
+  {
+    "id": "A033",
+    "name": "loading-dots",
+    "trigger": "loop",
+    "durationMs": 2400,
+    "cssClass": "motion-loading-dots",
+    "reducedMotion": "static final state; route-exit remains visible when reduced motion requested",
+    "usage": "class=\"motion-loading-dots\" data-motion=\"loop\"",
+    "notes": "CSS recipe; verify performance and connect app lifecycle. No scroll hijacking."
+  },
+  {
+    "id": "A034",
+    "name": "progress-sweep",
+    "trigger": "reveal",
+    "durationMs": 560,
+    "cssClass": "motion-progress-sweep",
+    "reducedMotion": "static final state; route-exit remains visible when reduced motion requested",
+    "usage": "class=\"motion-progress-sweep\" data-motion=\"reveal\"",
+    "notes": "CSS recipe; verify performance and connect app lifecycle. No scroll hijacking."
+  },
+  {
+    "id": "A035",
+    "name": "hover-lift",
+    "trigger": "hover",
+    "durationMs": 200,
+    "cssClass": "motion-hover-lift",
+    "reducedMotion": "static final state; route-exit remains visible when reduced motion requested",
+    "usage": "class=\"motion-hover-lift\" data-motion=\"hover\"",
+    "notes": "CSS recipe; verify performance and connect app lifecycle. No scroll hijacking."
+  },
+  {
+    "id": "A036",
+    "name": "hover-scale",
+    "trigger": "hover",
+    "durationMs": 200,
+    "cssClass": "motion-hover-scale",
+    "reducedMotion": "static final state; route-exit remains visible when reduced motion requested",
+    "usage": "class=\"motion-hover-scale\" data-motion=\"hover\"",
+    "notes": "CSS recipe; verify performance and connect app lifecycle. No scroll hijacking."
+  },
+  {
+    "id": "A037",
+    "name": "hover-tilt",
+    "trigger": "hover",
+    "durationMs": 200,
+    "cssClass": "motion-hover-tilt",
+    "reducedMotion": "static final state; route-exit remains visible when reduced motion requested",
+    "usage": "class=\"motion-hover-tilt\" data-motion=\"hover\"",
+    "notes": "CSS recipe; verify performance and connect app lifecycle. No scroll hijacking."
+  },
+  {
+    "id": "A038",
+    "name": "hover-glow",
+    "trigger": "hover",
+    "durationMs": 200,
+    "cssClass": "motion-hover-glow",
+    "reducedMotion": "static final state; route-exit remains visible when reduced motion requested",
+    "usage": "class=\"motion-hover-glow\" data-motion=\"hover\"",
+    "notes": "CSS recipe; verify performance and connect app lifecycle. No scroll hijacking."
+  },
+  {
+    "id": "A039",
+    "name": "hover-underline",
+    "trigger": "hover",
+    "durationMs": 200,
+    "cssClass": "motion-hover-underline",
+    "reducedMotion": "static final state; route-exit remains visible when reduced motion requested",
+    "usage": "class=\"motion-hover-underline\" data-motion=\"hover\"",
+    "notes": "CSS recipe; verify performance and connect app lifecycle. No scroll hijacking."
+  },
+  {
+    "id": "A040",
+    "name": "hover-border",
+    "trigger": "hover",
+    "durationMs": 200,
+    "cssClass": "motion-hover-border",
+    "reducedMotion": "static final state; route-exit remains visible when reduced motion requested",
+    "usage": "class=\"motion-hover-border\" data-motion=\"hover\"",
+    "notes": "CSS recipe; verify performance and connect app lifecycle. No scroll hijacking."
+  },
+  {
+    "id": "A041",
+    "name": "press",
+    "trigger": "press",
+    "durationMs": 200,
+    "cssClass": "motion-press",
+    "reducedMotion": "static final state; route-exit remains visible when reduced motion requested",
+    "usage": "class=\"motion-press\" data-motion=\"press\"",
+    "notes": "CSS recipe; verify performance and connect app lifecycle. No scroll hijacking."
+  },
+  {
+    "id": "A042",
+    "name": "focus-ring",
+    "trigger": "focus",
+    "durationMs": 200,
+    "cssClass": "motion-focus-ring",
+    "reducedMotion": "static final state; route-exit remains visible when reduced motion requested",
+    "usage": "class=\"motion-focus-ring\" data-motion=\"focus\"",
+    "notes": "CSS recipe; verify performance and connect app lifecycle. No scroll hijacking."
+  },
+  {
+    "id": "A043",
+    "name": "stagger-rise",
+    "trigger": "reveal",
+    "durationMs": 560,
+    "cssClass": "motion-stagger-rise",
+    "reducedMotion": "static final state; route-exit remains visible when reduced motion requested",
+    "usage": "class=\"motion-stagger-rise\" data-motion=\"reveal\"",
+    "notes": "CSS recipe; verify performance and connect app lifecycle. No scroll hijacking."
+  },
+  {
+    "id": "A044",
+    "name": "stagger-scale",
+    "trigger": "reveal",
+    "durationMs": 560,
+    "cssClass": "motion-stagger-scale",
+    "reducedMotion": "static final state; route-exit remains visible when reduced motion requested",
+    "usage": "class=\"motion-stagger-scale\" data-motion=\"reveal\"",
+    "notes": "CSS recipe; verify performance and connect app lifecycle. No scroll hijacking."
+  },
+  {
+    "id": "A045",
+    "name": "text-rise",
+    "trigger": "reveal",
+    "durationMs": 560,
+    "cssClass": "motion-text-rise",
+    "reducedMotion": "static final state; route-exit remains visible when reduced motion requested",
+    "usage": "class=\"motion-text-rise\" data-motion=\"reveal\"",
+    "notes": "CSS recipe; verify performance and connect app lifecycle. No scroll hijacking."
+  },
+  {
+    "id": "A046",
+    "name": "text-tracking",
+    "trigger": "reveal",
+    "durationMs": 560,
+    "cssClass": "motion-text-tracking",
+    "reducedMotion": "static final state; route-exit remains visible when reduced motion requested",
+    "usage": "class=\"motion-text-tracking\" data-motion=\"reveal\"",
+    "notes": "CSS recipe; verify performance and connect app lifecycle. No scroll hijacking."
+  },
+  {
+    "id": "A047",
+    "name": "image-pan",
+    "trigger": "loop",
+    "durationMs": 2400,
+    "cssClass": "motion-image-pan",
+    "reducedMotion": "static final state; route-exit remains visible when reduced motion requested",
+    "usage": "class=\"motion-image-pan\" data-motion=\"loop\"",
+    "notes": "CSS recipe; verify performance and connect app lifecycle. No scroll hijacking."
+  },
+  {
+    "id": "A048",
+    "name": "image-zoom",
+    "trigger": "reveal",
+    "durationMs": 560,
+    "cssClass": "motion-image-zoom",
+    "reducedMotion": "static final state; route-exit remains visible when reduced motion requested",
+    "usage": "class=\"motion-image-zoom\" data-motion=\"reveal\"",
+    "notes": "CSS recipe; verify performance and connect app lifecycle. No scroll hijacking."
+  },
+  {
+    "id": "A049",
+    "name": "drawer-left",
+    "trigger": "reveal",
+    "durationMs": 560,
+    "cssClass": "motion-drawer-left",
+    "reducedMotion": "static final state; route-exit remains visible when reduced motion requested",
+    "usage": "class=\"motion-drawer-left\" data-motion=\"reveal\"",
+    "notes": "CSS recipe; verify performance and connect app lifecycle. No scroll hijacking."
+  },
+  {
+    "id": "A050",
+    "name": "drawer-right",
+    "trigger": "reveal",
+    "durationMs": 560,
+    "cssClass": "motion-drawer-right",
+    "reducedMotion": "static final state; route-exit remains visible when reduced motion requested",
+    "usage": "class=\"motion-drawer-right\" data-motion=\"reveal\"",
+    "notes": "CSS recipe; verify performance and connect app lifecycle. No scroll hijacking."
+  },
+  {
+    "id": "A051",
+    "name": "modal-enter",
+    "trigger": "reveal",
+    "durationMs": 560,
+    "cssClass": "motion-modal-enter",
+    "reducedMotion": "static final state; route-exit remains visible when reduced motion requested",
+    "usage": "class=\"motion-modal-enter\" data-motion=\"reveal\"",
+    "notes": "CSS recipe; verify performance and connect app lifecycle. No scroll hijacking."
+  },
+  {
+    "id": "A052",
+    "name": "toast-enter",
+    "trigger": "reveal",
+    "durationMs": 560,
+    "cssClass": "motion-toast-enter",
+    "reducedMotion": "static final state; route-exit remains visible when reduced motion requested",
+    "usage": "class=\"motion-toast-enter\" data-motion=\"reveal\"",
+    "notes": "CSS recipe; verify performance and connect app lifecycle. No scroll hijacking."
+  },
+  {
+    "id": "A053",
+    "name": "accordion-open",
+    "trigger": "reveal",
+    "durationMs": 560,
+    "cssClass": "motion-accordion-open",
+    "reducedMotion": "static final state; route-exit remains visible when reduced motion requested",
+    "usage": "class=\"motion-accordion-open\" data-motion=\"reveal\"",
+    "notes": "CSS recipe; verify performance and connect app lifecycle. No scroll hijacking."
+  },
+  {
+    "id": "A054",
+    "name": "crossfade",
+    "trigger": "reveal",
+    "durationMs": 560,
+    "cssClass": "motion-crossfade",
+    "reducedMotion": "static final state; route-exit remains visible when reduced motion requested",
+    "usage": "class=\"motion-crossfade\" data-motion=\"reveal\"",
+    "notes": "CSS recipe; verify performance and connect app lifecycle. No scroll hijacking."
+  },
+  {
+    "id": "A055",
+    "name": "route-enter",
+    "trigger": "reveal",
+    "durationMs": 560,
+    "cssClass": "motion-route-enter",
+    "reducedMotion": "static final state; route-exit remains visible when reduced motion requested",
+    "usage": "class=\"motion-route-enter\" data-motion=\"reveal\"",
+    "notes": "CSS recipe; verify performance and connect app lifecycle. No scroll hijacking."
+  },
+  {
+    "id": "A056",
+    "name": "route-exit",
+    "trigger": "reveal",
+    "durationMs": 560,
+    "cssClass": "motion-route-exit",
+    "reducedMotion": "static final state; route-exit remains visible when reduced motion requested",
+    "usage": "class=\"motion-route-exit\" data-motion=\"reveal\"",
+    "notes": "CSS recipe; verify performance and connect app lifecycle. No scroll hijacking."
+  },
+  {
+    "id": "A057",
+    "name": "scroll-progress",
+    "trigger": "scroll",
+    "durationMs": 560,
+    "cssClass": "motion-scroll-progress",
+    "reducedMotion": "static final state; route-exit remains visible when reduced motion requested",
+    "usage": "class=\"motion-scroll-progress\" data-motion=\"scroll\"",
+    "notes": "CSS recipe; verify performance and connect app lifecycle. No scroll hijacking."
+  },
+  {
+    "id": "A058",
+    "name": "scroll-parallax",
+    "trigger": "scroll",
+    "durationMs": 560,
+    "cssClass": "motion-scroll-parallax",
+    "reducedMotion": "static final state; route-exit remains visible when reduced motion requested",
+    "usage": "class=\"motion-scroll-parallax\" data-motion=\"scroll\"",
+    "notes": "CSS recipe; verify performance and connect app lifecycle. No scroll hijacking."
+  },
+  {
+    "id": "A059",
+    "name": "scroll-reveal",
+    "trigger": "scroll",
+    "durationMs": 560,
+    "cssClass": "motion-scroll-reveal",
+    "reducedMotion": "static final state; route-exit remains visible when reduced motion requested",
+    "usage": "class=\"motion-scroll-reveal\" data-motion=\"scroll\"",
+    "notes": "CSS recipe; verify performance and connect app lifecycle. No scroll hijacking."
+  },
+  {
+    "id": "A060",
+    "name": "marquee",
+    "trigger": "loop",
+    "durationMs": 2400,
+    "cssClass": "motion-marquee",
+    "reducedMotion": "static final state; route-exit remains visible when reduced motion requested",
+    "usage": "class=\"motion-marquee\" data-motion=\"loop\"",
+    "notes": "CSS recipe; verify performance and connect app lifecycle. No scroll hijacking."
+  },
+  {
+    "id": "A061",
+    "name": "wiggle",
+    "trigger": "loop",
+    "durationMs": 2400,
+    "cssClass": "motion-wiggle",
+    "reducedMotion": "static final state; route-exit remains visible when reduced motion requested",
+    "usage": "class=\"motion-wiggle\" data-motion=\"loop\"",
+    "notes": "CSS recipe; verify performance and connect app lifecycle. No scroll hijacking."
+  },
+  {
+    "id": "A062",
+    "name": "nudge",
+    "trigger": "loop",
+    "durationMs": 2400,
+    "cssClass": "motion-nudge",
+    "reducedMotion": "static final state; route-exit remains visible when reduced motion requested",
+    "usage": "class=\"motion-nudge\" data-motion=\"loop\"",
+    "notes": "CSS recipe; verify performance and connect app lifecycle. No scroll hijacking."
+  },
+  {
+    "id": "A063",
+    "name": "check-draw",
+    "trigger": "reveal",
+    "durationMs": 560,
+    "cssClass": "motion-check-draw",
+    "reducedMotion": "static final state; route-exit remains visible when reduced motion requested",
+    "usage": "class=\"motion-check-draw\" data-motion=\"reveal\"",
+    "notes": "CSS recipe; verify performance and connect app lifecycle. No scroll hijacking."
+  },
+  {
+    "id": "A064",
+    "name": "border-trace",
+    "trigger": "reveal",
+    "durationMs": 560,
+    "cssClass": "motion-border-trace",
+    "reducedMotion": "static final state; route-exit remains visible when reduced motion requested",
+    "usage": "class=\"motion-border-trace\" data-motion=\"reveal\"",
+    "notes": "CSS recipe; verify performance and connect app lifecycle. No scroll hijacking."
+  }
+]

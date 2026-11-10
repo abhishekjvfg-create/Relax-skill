@@ -1,0 +1,132 @@
+:root{--motion-duration:560ms;--motion-ease:cubic-bezier(.22,1,.36,1)}
+[data-motion]{animation:none}
+@keyframes au-fade-in{from{opacity:0}to{opacity:1}}
+.motion-fade-in.is-visible{animation:au-fade-in var(--motion-duration,560ms) var(--motion-ease) both;animation-duration:var(--duration,560ms);animation-delay:calc(var(--stagger,0)*60ms)}
+@keyframes au-fade-up{from{opacity:0;transform:translateY(24px)}to{opacity:1;transform:none}}
+.motion-fade-up.is-visible{animation:au-fade-up var(--motion-duration,560ms) var(--motion-ease) both;animation-duration:var(--duration,560ms);animation-delay:calc(var(--stagger,0)*60ms)}
+@keyframes au-fade-down{from{opacity:0;transform:translateY(-24px)}to{opacity:1;transform:none}}
+.motion-fade-down.is-visible{animation:au-fade-down var(--motion-duration,560ms) var(--motion-ease) both;animation-duration:var(--duration,560ms);animation-delay:calc(var(--stagger,0)*60ms)}
+@keyframes au-fade-left{from{opacity:0;transform:translateX(24px)}to{opacity:1;transform:none}}
+.motion-fade-left.is-visible{animation:au-fade-left var(--motion-duration,560ms) var(--motion-ease) both;animation-duration:var(--duration,560ms);animation-delay:calc(var(--stagger,0)*60ms)}
+@keyframes au-fade-right{from{opacity:0;transform:translateX(-24px)}to{opacity:1;transform:none}}
+.motion-fade-right.is-visible{animation:au-fade-right var(--motion-duration,560ms) var(--motion-ease) both;animation-duration:var(--duration,560ms);animation-delay:calc(var(--stagger,0)*60ms)}
+@keyframes au-slide-up{from{transform:translateY(100%)}to{transform:none}}
+.motion-slide-up.is-visible{animation:au-slide-up var(--motion-duration,560ms) var(--motion-ease) both;animation-duration:var(--duration,560ms);animation-delay:calc(var(--stagger,0)*60ms)}
+@keyframes au-slide-down{from{transform:translateY(-100%)}to{transform:none}}
+.motion-slide-down.is-visible{animation:au-slide-down var(--motion-duration,560ms) var(--motion-ease) both;animation-duration:var(--duration,560ms);animation-delay:calc(var(--stagger,0)*60ms)}
+@keyframes au-slide-left{from{transform:translateX(100%)}to{transform:none}}
+.motion-slide-left.is-visible{animation:au-slide-left var(--motion-duration,560ms) var(--motion-ease) both;animation-duration:var(--duration,560ms);animation-delay:calc(var(--stagger,0)*60ms)}
+@keyframes au-slide-right{from{transform:translateX(-100%)}to{transform:none}}
+.motion-slide-right.is-visible{animation:au-slide-right var(--motion-duration,560ms) var(--motion-ease) both;animation-duration:var(--duration,560ms);animation-delay:calc(var(--stagger,0)*60ms)}
+@keyframes au-scale-in{from{opacity:0;transform:scale(.9)}to{opacity:1;transform:scale(1)}}
+.motion-scale-in.is-visible{animation:au-scale-in var(--motion-duration,560ms) var(--motion-ease) both;animation-duration:var(--duration,560ms);animation-delay:calc(var(--stagger,0)*60ms)}
+@keyframes au-scale-out{from{opacity:0;transform:scale(1.1)}to{opacity:1;transform:scale(1)}}
+.motion-scale-out.is-visible{animation:au-scale-out var(--motion-duration,560ms) var(--motion-ease) both;animation-duration:var(--duration,560ms);animation-delay:calc(var(--stagger,0)*60ms)}
+@keyframes au-zoom-soft{from{opacity:0;transform:scale(.97)}to{opacity:1;transform:scale(1)}}
+.motion-zoom-soft.is-visible{animation:au-zoom-soft var(--motion-duration,560ms) var(--motion-ease) both;animation-duration:var(--duration,560ms);animation-delay:calc(var(--stagger,0)*60ms)}
+@keyframes au-rotate-in{from{opacity:0;transform:rotate(-8deg)}to{opacity:1;transform:none}}
+.motion-rotate-in.is-visible{animation:au-rotate-in var(--motion-duration,560ms) var(--motion-ease) both;animation-duration:var(--duration,560ms);animation-delay:calc(var(--stagger,0)*60ms)}
+@keyframes au-rotate-reverse{from{opacity:0;transform:rotate(8deg)}to{opacity:1;transform:none}}
+.motion-rotate-reverse.is-visible{animation:au-rotate-reverse var(--motion-duration,560ms) var(--motion-ease) both;animation-duration:var(--duration,560ms);animation-delay:calc(var(--stagger,0)*60ms)}
+@keyframes au-flip-x{from{opacity:0;transform:perspective(700px) rotateX(65deg)}to{opacity:1;transform:none}}
+.motion-flip-x.is-visible{animation:au-flip-x var(--motion-duration,560ms) var(--motion-ease) both;animation-duration:var(--duration,560ms);animation-delay:calc(var(--stagger,0)*60ms)}
+@keyframes au-flip-y{from{opacity:0;transform:perspective(700px) rotateY(65deg)}to{opacity:1;transform:none}}
+.motion-flip-y.is-visible{animation:au-flip-y var(--motion-duration,560ms) var(--motion-ease) both;animation-duration:var(--duration,560ms);animation-delay:calc(var(--stagger,0)*60ms)}
+@keyframes au-reveal-clip{from{clip-path:inset(0 100% 0 0)}to{clip-path:inset(0 0 0 0)}}
+.motion-reveal-clip.is-visible{animation:au-reveal-clip var(--motion-duration,560ms) var(--motion-ease) both;animation-duration:var(--duration,560ms);animation-delay:calc(var(--stagger,0)*60ms)}
+@keyframes au-reveal-right{from{clip-path:inset(0 0 0 100%)}to{clip-path:inset(0 0 0 0)}}
+.motion-reveal-right.is-visible{animation:au-reveal-right var(--motion-duration,560ms) var(--motion-ease) both;animation-duration:var(--duration,560ms);animation-delay:calc(var(--stagger,0)*60ms)}
+@keyframes au-reveal-top{from{clip-path:inset(0 0 100% 0)}to{clip-path:inset(0 0 0 0)}}
+.motion-reveal-top.is-visible{animation:au-reveal-top var(--motion-duration,560ms) var(--motion-ease) both;animation-duration:var(--duration,560ms);animation-delay:calc(var(--stagger,0)*60ms)}
+@keyframes au-reveal-bottom{from{clip-path:inset(100% 0 0 0)}to{clip-path:inset(0 0 0 0)}}
+.motion-reveal-bottom.is-visible{animation:au-reveal-bottom var(--motion-duration,560ms) var(--motion-ease) both;animation-duration:var(--duration,560ms);animation-delay:calc(var(--stagger,0)*60ms)}
+@keyframes au-reveal-circle{from{clip-path:circle(0 at 50% 50%)}to{clip-path:circle(75% at 50% 50%)}}
+.motion-reveal-circle.is-visible{animation:au-reveal-circle var(--motion-duration,560ms) var(--motion-ease) both;animation-duration:var(--duration,560ms);animation-delay:calc(var(--stagger,0)*60ms)}
+@keyframes au-blur-in{from{opacity:0;filter:blur(8px)}to{opacity:1;filter:none}}
+.motion-blur-in.is-visible{animation:au-blur-in var(--motion-duration,560ms) var(--motion-ease) both;animation-duration:var(--duration,560ms);animation-delay:calc(var(--stagger,0)*60ms)}
+@keyframes au-blur-slide{from{opacity:0;filter:blur(4px);transform:translateY(16px)}to{opacity:1;filter:none;transform:none}}
+.motion-blur-slide.is-visible{animation:au-blur-slide var(--motion-duration,560ms) var(--motion-ease) both;animation-duration:var(--duration,560ms);animation-delay:calc(var(--stagger,0)*60ms)}
+@keyframes au-bounce-in{from{opacity:0;transform:scale(.7)}to{opacity:1;transform:scale(1)}}
+.motion-bounce-in.is-visible{animation:au-bounce-in var(--motion-duration,560ms) var(--motion-ease) both;animation-duration:var(--duration,560ms);animation-delay:calc(var(--stagger,0)*60ms)}
+@keyframes au-float{from{transform:translateY(0)}to{transform:translateY(-8px)}}
+.motion-float:not([data-paused="true"]){animation:au-float var(--motion-duration,2400ms) var(--motion-ease) both;animation-duration:var(--duration,2400ms);animation-delay:calc(var(--stagger,0)*60ms);animation-iteration-count:infinite;animation-direction:alternate}
+@keyframes au-pulse{from{opacity:.65;transform:scale(.97)}to{opacity:1;transform:scale(1)}}
+.motion-pulse:not([data-paused="true"]){animation:au-pulse var(--motion-duration,2400ms) var(--motion-ease) both;animation-duration:var(--duration,2400ms);animation-delay:calc(var(--stagger,0)*60ms);animation-iteration-count:infinite;animation-direction:alternate}
+@keyframes au-breathe{from{transform:scale(1)}to{transform:scale(1.025)}}
+.motion-breathe:not([data-paused="true"]){animation:au-breathe var(--motion-duration,2400ms) var(--motion-ease) both;animation-duration:var(--duration,2400ms);animation-delay:calc(var(--stagger,0)*60ms);animation-iteration-count:infinite;animation-direction:alternate}
+@keyframes au-sway{from{transform:rotate(-2deg)}to{transform:rotate(2deg)}}
+.motion-sway:not([data-paused="true"]){animation:au-sway var(--motion-duration,2400ms) var(--motion-ease) both;animation-duration:var(--duration,2400ms);animation-delay:calc(var(--stagger,0)*60ms);animation-iteration-count:infinite;animation-direction:alternate}
+@keyframes au-spin{from{transform:rotate(0)}to{transform:rotate(360deg)}}
+.motion-spin:not([data-paused="true"]){animation:au-spin var(--motion-duration,2400ms) var(--motion-ease) both;animation-duration:var(--duration,2400ms);animation-delay:calc(var(--stagger,0)*60ms);animation-iteration-count:infinite;animation-direction:alternate}
+@keyframes au-orbit{from{transform:rotate(0) translateX(10px) rotate(0)}to{transform:rotate(360deg) translateX(10px) rotate(-360deg)}}
+.motion-orbit:not([data-paused="true"]){animation:au-orbit var(--motion-duration,2400ms) var(--motion-ease) both;animation-duration:var(--duration,2400ms);animation-delay:calc(var(--stagger,0)*60ms);animation-iteration-count:infinite;animation-direction:alternate}
+@keyframes au-shimmer{from{background-position:200% 0}to{background-position:-200% 0}}
+.motion-shimmer:not([data-paused="true"]){animation:au-shimmer var(--motion-duration,2400ms) var(--motion-ease) both;animation-duration:var(--duration,2400ms);animation-delay:calc(var(--stagger,0)*60ms);animation-iteration-count:infinite;animation-direction:alternate}
+@keyframes au-skeleton-pulse{from{opacity:.25}to{opacity:.6}}
+.motion-skeleton-pulse:not([data-paused="true"]){animation:au-skeleton-pulse var(--motion-duration,2400ms) var(--motion-ease) both;animation-duration:var(--duration,2400ms);animation-delay:calc(var(--stagger,0)*60ms);animation-iteration-count:infinite;animation-direction:alternate}
+@keyframes au-loading-dots{from{opacity:.3;transform:translateY(0)}to{opacity:1;transform:translateY(-5px)}}
+.motion-loading-dots:not([data-paused="true"]){animation:au-loading-dots var(--motion-duration,2400ms) var(--motion-ease) both;animation-duration:var(--duration,2400ms);animation-delay:calc(var(--stagger,0)*60ms);animation-iteration-count:infinite;animation-direction:alternate}
+@keyframes au-progress-sweep{from{transform:scaleX(.1)}to{transform:scaleX(1)}}
+.motion-progress-sweep.is-visible{animation:au-progress-sweep var(--motion-duration,560ms) var(--motion-ease) both;animation-duration:var(--duration,560ms);animation-delay:calc(var(--stagger,0)*60ms)}
+@keyframes au-hover-lift{from{transform:none}to{transform:translateY(-4px)}}
+.motion-hover-lift:hover{animation:au-hover-lift var(--motion-duration,200ms) var(--motion-ease) both;animation-duration:var(--duration,200ms);animation-delay:calc(var(--stagger,0)*60ms)}
+@keyframes au-hover-scale{from{transform:scale(1)}to{transform:scale(1.025)}}
+.motion-hover-scale:hover{animation:au-hover-scale var(--motion-duration,200ms) var(--motion-ease) both;animation-duration:var(--duration,200ms);animation-delay:calc(var(--stagger,0)*60ms)}
+@keyframes au-hover-tilt{from{transform:none}to{transform:rotate(-2deg)}}
+.motion-hover-tilt:hover{animation:au-hover-tilt var(--motion-duration,200ms) var(--motion-ease) both;animation-duration:var(--duration,200ms);animation-delay:calc(var(--stagger,0)*60ms)}
+@keyframes au-hover-glow{from{box-shadow:0 0 0 #9d88ff00}to{box-shadow:0 8px 24px #9d88ff66}}
+.motion-hover-glow:hover{animation:au-hover-glow var(--motion-duration,200ms) var(--motion-ease) both;animation-duration:var(--duration,200ms);animation-delay:calc(var(--stagger,0)*60ms)}
+@keyframes au-hover-underline{from{text-decoration-color:transparent}to{text-decoration-color:currentColor}}
+.motion-hover-underline:hover{animation:au-hover-underline var(--motion-duration,200ms) var(--motion-ease) both;animation-duration:var(--duration,200ms);animation-delay:calc(var(--stagger,0)*60ms)}
+@keyframes au-hover-border{from{outline:1px solid transparent}to{outline:1px solid currentColor}}
+.motion-hover-border:hover{animation:au-hover-border var(--motion-duration,200ms) var(--motion-ease) both;animation-duration:var(--duration,200ms);animation-delay:calc(var(--stagger,0)*60ms)}
+@keyframes au-press{from{transform:scale(1)}to{transform:scale(.97)}}
+.motion-press:active{animation:au-press var(--motion-duration,200ms) var(--motion-ease) both;animation-duration:var(--duration,200ms);animation-delay:calc(var(--stagger,0)*60ms)}
+@keyframes au-focus-ring{from{outline-offset:1px}to{outline-offset:5px}}
+.motion-focus-ring:focus-visible{animation:au-focus-ring var(--motion-duration,200ms) var(--motion-ease) both;animation-duration:var(--duration,200ms);animation-delay:calc(var(--stagger,0)*60ms)}
+@keyframes au-stagger-rise{from{opacity:0;transform:translateY(18px)}to{opacity:1;transform:none}}
+.motion-stagger-rise.is-visible{animation:au-stagger-rise var(--motion-duration,560ms) var(--motion-ease) both;animation-duration:var(--duration,560ms);animation-delay:calc(var(--stagger,0)*60ms)}
+@keyframes au-stagger-scale{from{opacity:0;transform:scale(.94)}to{opacity:1;transform:none}}
+.motion-stagger-scale.is-visible{animation:au-stagger-scale var(--motion-duration,560ms) var(--motion-ease) both;animation-duration:var(--duration,560ms);animation-delay:calc(var(--stagger,0)*60ms)}
+@keyframes au-text-rise{from{opacity:0;transform:translateY(.7em)}to{opacity:1;transform:none}}
+.motion-text-rise.is-visible{animation:au-text-rise var(--motion-duration,560ms) var(--motion-ease) both;animation-duration:var(--duration,560ms);animation-delay:calc(var(--stagger,0)*60ms)}
+@keyframes au-text-tracking{from{opacity:0;letter-spacing:.12em}to{opacity:1;letter-spacing:normal}}
+.motion-text-tracking.is-visible{animation:au-text-tracking var(--motion-duration,560ms) var(--motion-ease) both;animation-duration:var(--duration,560ms);animation-delay:calc(var(--stagger,0)*60ms)}
+@keyframes au-image-pan{from{transform:scale(1.08) translateX(-2%)}to{transform:scale(1.08) translateX(2%)}}
+.motion-image-pan:not([data-paused="true"]){animation:au-image-pan var(--motion-duration,2400ms) var(--motion-ease) both;animation-duration:var(--duration,2400ms);animation-delay:calc(var(--stagger,0)*60ms);animation-iteration-count:infinite;animation-direction:alternate}
+@keyframes au-image-zoom{from{transform:scale(1)}to{transform:scale(1.06)}}
+.motion-image-zoom.is-visible{animation:au-image-zoom var(--motion-duration,560ms) var(--motion-ease) both;animation-duration:var(--duration,560ms);animation-delay:calc(var(--stagger,0)*60ms)}
+@keyframes au-drawer-left{from{opacity:0;transform:translateX(-40px)}to{opacity:1;transform:none}}
+.motion-drawer-left.is-visible{animation:au-drawer-left var(--motion-duration,560ms) var(--motion-ease) both;animation-duration:var(--duration,560ms);animation-delay:calc(var(--stagger,0)*60ms)}
+@keyframes au-drawer-right{from{opacity:0;transform:translateX(40px)}to{opacity:1;transform:none}}
+.motion-drawer-right.is-visible{animation:au-drawer-right var(--motion-duration,560ms) var(--motion-ease) both;animation-duration:var(--duration,560ms);animation-delay:calc(var(--stagger,0)*60ms)}
+@keyframes au-modal-enter{from{opacity:0;transform:translateY(12px) scale(.96)}to{opacity:1;transform:none}}
+.motion-modal-enter.is-visible{animation:au-modal-enter var(--motion-duration,560ms) var(--motion-ease) both;animation-duration:var(--duration,560ms);animation-delay:calc(var(--stagger,0)*60ms)}
+@keyframes au-toast-enter{from{opacity:0;transform:translateY(30px)}to{opacity:1;transform:none}}
+.motion-toast-enter.is-visible{animation:au-toast-enter var(--motion-duration,560ms) var(--motion-ease) both;animation-duration:var(--duration,560ms);animation-delay:calc(var(--stagger,0)*60ms)}
+@keyframes au-accordion-open{from{grid-template-rows:0fr;opacity:0}to{grid-template-rows:1fr;opacity:1}}
+.motion-accordion-open.is-visible{animation:au-accordion-open var(--motion-duration,560ms) var(--motion-ease) both;animation-duration:var(--duration,560ms);animation-delay:calc(var(--stagger,0)*60ms)}
+@keyframes au-crossfade{from{opacity:0}to{opacity:1}}
+.motion-crossfade.is-visible{animation:au-crossfade var(--motion-duration,560ms) var(--motion-ease) both;animation-duration:var(--duration,560ms);animation-delay:calc(var(--stagger,0)*60ms)}
+@keyframes au-route-enter{from{opacity:0;transform:translateY(8px)}to{opacity:1;transform:none}}
+.motion-route-enter.is-visible{animation:au-route-enter var(--motion-duration,560ms) var(--motion-ease) both;animation-duration:var(--duration,560ms);animation-delay:calc(var(--stagger,0)*60ms)}
+@keyframes au-route-exit{from{opacity:1;transform:none}to{opacity:0;transform:translateY(-8px)}}
+.motion-route-exit.is-visible{animation:au-route-exit var(--motion-duration,560ms) var(--motion-ease) both;animation-duration:var(--duration,560ms);animation-delay:calc(var(--stagger,0)*60ms)}
+@keyframes au-scroll-progress{from{transform:scaleX(0)}to{transform:scaleX(1)}}
+@supports(animation-timeline:view()){.motion-scroll-progress{animation:au-scroll-progress var(--motion-duration,560ms) var(--motion-ease) both;animation-duration:var(--duration,560ms);animation-delay:calc(var(--stagger,0)*60ms);animation-duration:1ms;animation-timeline:view();animation-range:entry 0% cover 45%}}
+@keyframes au-scroll-parallax{from{transform:translateY(12px)}to{transform:translateY(-12px)}}
+@supports(animation-timeline:view()){.motion-scroll-parallax{animation:au-scroll-parallax var(--motion-duration,560ms) var(--motion-ease) both;animation-duration:var(--duration,560ms);animation-delay:calc(var(--stagger,0)*60ms);animation-duration:1ms;animation-timeline:view();animation-range:entry 0% cover 45%}}
+@keyframes au-scroll-reveal{from{opacity:0;transform:translateY(32px)}to{opacity:1;transform:none}}
+@supports(animation-timeline:view()){.motion-scroll-reveal{animation:au-scroll-reveal var(--motion-duration,560ms) var(--motion-ease) both;animation-duration:var(--duration,560ms);animation-delay:calc(var(--stagger,0)*60ms);animation-duration:1ms;animation-timeline:view();animation-range:entry 0% cover 45%}}
+@keyframes au-marquee{from{transform:translateX(0)}to{transform:translateX(-25%)}}
+.motion-marquee:not([data-paused="true"]){animation:au-marquee var(--motion-duration,2400ms) var(--motion-ease) both;animation-duration:var(--duration,2400ms);animation-delay:calc(var(--stagger,0)*60ms);animation-iteration-count:infinite;animation-direction:alternate}
+@keyframes au-wiggle{from{transform:rotate(-3deg)}to{transform:rotate(3deg)}}
+.motion-wiggle:not([data-paused="true"]){animation:au-wiggle var(--motion-duration,2400ms) var(--motion-ease) both;animation-duration:var(--duration,2400ms);animation-delay:calc(var(--stagger,0)*60ms);animation-iteration-count:infinite;animation-direction:alternate}
+@keyframes au-nudge{from{transform:translateX(0)}to{transform:translateX(5px)}}
+.motion-nudge:not([data-paused="true"]){animation:au-nudge var(--motion-duration,2400ms) var(--motion-ease) both;animation-duration:var(--duration,2400ms);animation-delay:calc(var(--stagger,0)*60ms);animation-iteration-count:infinite;animation-direction:alternate}
+@keyframes au-check-draw{from{clip-path:inset(0 100% 0 0)}to{clip-path:inset(0 0 0 0)}}
+.motion-check-draw.is-visible{animation:au-check-draw var(--motion-duration,560ms) var(--motion-ease) both;animation-duration:var(--duration,560ms);animation-delay:calc(var(--stagger,0)*60ms)}
+@keyframes au-border-trace{from{outline-offset:-6px;outline-color:transparent}to{outline-offset:0;outline-color:currentColor}}
+.motion-border-trace.is-visible{animation:au-border-trace var(--motion-duration,560ms) var(--motion-ease) both;animation-duration:var(--duration,560ms);animation-delay:calc(var(--stagger,0)*60ms)}
+.motion-shimmer{background:linear-gradient(100deg,#37405b 20%,#7e8db6 45%,#37405b 70%);background-size:200% 100%}.motion-progress-sweep,.motion-scroll-progress{transform-origin:left}.motion-hover-underline{text-decoration:underline}.motion-accordion-open{display:grid}.motion-accordion-open>*{min-height:0;overflow:hidden}.motion-border-trace{outline:1px solid currentColor}[data-motion][data-paused="true"]{animation-play-state:paused!important}
+@media(prefers-reduced-motion:reduce){[data-motion],[class*="motion-"]{animation:none!important;transition:none!important;transform:none!important;opacity:1!important;filter:none!important;clip-path:none!important;scroll-behavior:auto!important}}

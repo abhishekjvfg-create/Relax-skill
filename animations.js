@@ -1,0 +1,4 @@
+// Progressive enhancement: content is visible if JS fails.
+const targets=[...document.querySelectorAll('[data-motion="reveal"]')];
+if('IntersectionObserver' in window){const observer=new IntersectionObserver(entries=>{entries.forEach(e=>{if(e.isIntersecting){e.target.classList.add('is-visible');observer.unobserve(e.target)}})},{threshold:.1});targets.forEach(e=>observer.observe(e))}else{targets.forEach(e=>e.classList.add('is-visible'))}
+const pause=document.querySelector('#pause-motion');if(pause){pause.addEventListener('click',()=>{const paused=pause.getAttribute('aria-pressed')!=='true';pause.setAttribute('aria-pressed',String(paused));pause.textContent=paused?'Resume decorative motion':'Pause decorative motion';document.querySelectorAll('[data-motion]').forEach(e=>e.dataset.paused=String(paused))})}
